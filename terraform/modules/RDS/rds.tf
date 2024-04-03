@@ -20,7 +20,7 @@ resource "aws_db_instance" "ACS-rds" {
   storage_type           = "gp2"
   engine                 = "mysql"
   engine_version         = "8.0"
-  instance_class         = "db.t2.micro"
+  instance_class         = "db.t3.micro"
   db_name                = "staxxdb" 
   username               = var.db-username
   password               = var.db-password
