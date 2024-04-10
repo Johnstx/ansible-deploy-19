@@ -1,22 +1,22 @@
 
 
-terraform {
-  backend "s3" {
-    bucket         = "johnstaxx-dev-terraform-bucket"
-    key            = "global/s3/terraform.tfstate"
-    region         = "us-east-1"
-    dynamodb_table = "terraform-locks"
-    encrypt        = true
-  }
-}
+# terraform {
+#   backend "s3" {
+#     bucket         = "johnstaxx-dev-terraform-bucket"
+#     key            = "global/s3/terraform.tfstate"
+#     region         = "us-east-1"
+#     dynamodb_table = "terraform-locks"
+#     encrypt        = true
+#   }
+# }
 
 
-terraform {
-  backend "remote" {
-    organization = "Medixia"
+# terraform {
+#   backend "remote" {
+#     organization = "Medixia"
 
-    workspaces {
-      name = "Terraform-cloud"
-    }
-  }
-}
+#     workspaces {
+#       name = "Terraform-cloud"
+#     }
+#   }
+# }
