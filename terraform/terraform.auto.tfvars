@@ -21,7 +21,7 @@ ami-nginx = "ami-0b46b8d23c5d55cdf"
 
 ami-sonar = "ami-0346888e951210be4"
 
-keypair = "devops"
+keypair = "medix"
 
 account_no = "795823757837"
 
