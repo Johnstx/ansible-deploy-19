@@ -77,7 +77,6 @@ variable "ami-bastion" {
   description = "AMI ID for the launch template"
 }
 
-
 variable "ami-web" {
   type        = string
   description = "AMI ID for the launch template"

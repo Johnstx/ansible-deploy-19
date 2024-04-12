@@ -61,8 +61,6 @@ resource "aws_autoscaling_group" "bastion-asg" {
 }
 
 
-
-
 # ------ Autoscslaling group for reverse proxy nginx ---------
 
 resource "aws_autoscaling_group" "nginx-asg" {

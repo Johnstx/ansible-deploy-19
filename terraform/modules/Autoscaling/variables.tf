@@ -51,7 +51,6 @@ variable "public_subnets" {
   description = "Seconf subnet for ecternal ALB"
 }
 
-
 variable "ami-nginx" {
   type        = string
   description = "ami for nginx"
@@ -65,11 +64,9 @@ variable "wordpress-alb-tgt" {
   description = "wordpress target group"
 }
 
-
 variable "tooling-alb-tgt" {
   description = "tooling target group"
 }
-
 
 variable "max_size" {
   type        = number
@@ -84,5 +81,4 @@ variable "min_size" {
 variable "desired_capacity" {
   type        = number
   description = "Desired number of instance in autoscaling group"
-
 }
